@@ -1,0 +1,18 @@
+{
+  "extends": ["airbnb"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js"],
+        "paths": ["."]
+      }
+    }
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "quotes": ["double"]
+  }
+}
