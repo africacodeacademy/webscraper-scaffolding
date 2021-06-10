@@ -1,27 +1,32 @@
 {
-  "name": "mastermind-scaffolding",
+  "name": "webscraper-scaffolding",
   "version": "1.0.0",
   "description": "",
-  "main": "mastermind.js",
+  "main": "webscraper.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/africacodeacademy/mastermind-scaffolding.git"
+    "url": "git+https://github.com/africacodeacademy/webscraper-scaffolding.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/africacodeacademy/mastermind-scaffolding/issues"
+    "url": "https://github.com/africacodeacademy/webscraper-scaffolding/issues"
   },
-  "homepage": "https://github.com/africacodeacademy/mastermind-scaffolding#readme",
+  "homepage": "https://github.com/africacodeacademy/webscraper-scaffolding#readme",
   "devDependencies": {
     "eslint": "^7.28.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "prettier": "^2.3.1"
+  },
+  "dependencies": {
+    "jsdom": "^16.6.0",
+    "node-fetch": "^2.6.1"
   }
 }
