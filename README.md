@@ -1,4 +1,4 @@
-# Scaffolding for Mastermind
+# Scaffolding for Web Scraper
 
 ## To install (for ESLint)
 

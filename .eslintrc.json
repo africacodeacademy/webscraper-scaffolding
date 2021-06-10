@@ -8,11 +8,13 @@
       }
     }
   },
+  "plugins": ["prettier"],
   "env": {
     "node": true
   },
   "rules": {
     "prettier/prettier": "error",
-    "quotes": ["double"]
+    "quotes": 0,
+    "no-console": "off"
   }
 }
